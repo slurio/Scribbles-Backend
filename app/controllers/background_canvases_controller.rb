@@ -1,0 +1,2 @@
+class BackgroundCanvasesController < ApplicationController
+end
