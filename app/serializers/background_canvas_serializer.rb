@@ -1,3 +1,3 @@
 class BackgroundCanvasSerializer < ActiveModel::Serializer
-  attributes :id
+  attributes :id, :background_style, :z_index
 end
