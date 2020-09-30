@@ -24,6 +24,14 @@ class CircleCanvasesController < ApplicationController
       render json: circleCanvas
     end
 
+    def destroy
+      circleCanvas = CircleCanvas.find(params[:id])
+
+      circleCanvas.destroy
+
+      render json: circleCanvas
+    end
+
     private
 
     def circleCanvas_params

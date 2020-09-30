@@ -17,6 +17,14 @@ class BackgroundCanvasesController < ApplicationController
         end
     end
 
+    def update
+      background = BackgroundCanvas.find(params[:id])
+
+      background.update(background_params)
+
+      render json: background
+    end
+
     private
 
     def background_params

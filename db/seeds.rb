@@ -13,9 +13,9 @@ scribble2 = Scribble.create(title: "sam scribble 2", user_id: sam.id)
 scribble3 = Scribble.create(title: "anson scribble 1", user_id: anson.id)
 
 # New BackgroundCanvases
-bg1 = BackgroundCanvas.create(z_index: 1, scribble_id: scribble1.id, background_style: "pink")
-bg2 = BackgroundCanvas.create(z_index: 1, scribble_id: scribble2.id, background_style: "red")
-bg3 = BackgroundCanvas.create(z_index: 1, scribble_id: scribble3.id, background_style: "green")
+bg1 = BackgroundCanvas.create(z_index: 1, scribble_id: scribble1.id, background_style: "#0000FF")
+bg2 = BackgroundCanvas.create(z_index: 1, scribble_id: scribble2.id, background_style: "#0000FF")
+bg3 = BackgroundCanvas.create(z_index: 1, scribble_id: scribble3.id, background_style: "0000FF")
 
 # New CircleCanvases
 cc1 = CircleCanvas.create(posX: 50, posY: 50, dx: 5, dy:4, radius: 20, color: "red", sound: "c", z_index: 2, scribble_id: scribble1.id)
