@@ -22,6 +22,13 @@ class ScribblesController < ApplicationController
         end
     end
 
+    def destroy
+        scribble = Scribble.find(params[:id])
+        scribble.destroy
+        render json: scribble
+
+    end
+
     private
 
     def scribble_params
