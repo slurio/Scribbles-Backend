@@ -16,6 +16,14 @@ class CircleCanvasesController < ApplicationController
         end
     end
 
+    def update
+      circleCanvas = CircleCanvas.find(params[:id])
+
+      circleCanvas.update(circleCanvas_params)
+
+      render json: circleCanvas
+    end
+
     private
 
     def circleCanvas_params
