@@ -18,6 +18,6 @@ bg2 = BackgroundCanvas.create(z_index: 1, scribble_id: scribble2.id, background_
 bg3 = BackgroundCanvas.create(z_index: 1, scribble_id: scribble3.id, background_style: "0000FF")
 
 # New CircleCanvases
-cc1 = CircleCanvas.create(posX: 50, posY: 50, dx: 5, dy:4, radius: 20, color: "red", sound: "c", z_index: 2, scribble_id: scribble1.id)
-cc2 = CircleCanvas.create(posX: 80, posY: 30, dx: 2, dy:2, radius: 10, color: "blue", sound: "c", z_index: 3, scribble_id: scribble1.id)
-cc3 = CircleCanvas.create(posX: 10, posY: 10, dx: 2, dy:2, radius: 3, color: "orange", sound: "c", z_index: 2, scribble_id: scribble2.id)
+cc1 = CircleCanvas.create(posX: 50, posY: 50, dx: 5, dy:4, radius: 20, color: "red", octave: 4, note: "c", z_index: 2, scribble_id: scribble1.id)
+cc2 = CircleCanvas.create(posX: 80, posY: 30, dx: 2, dy:2, radius: 10, color: "blue", octave: 4, note: "c", z_index: 3, scribble_id: scribble1.id)
+cc3 = CircleCanvas.create(posX: 10, posY: 10, dx: 2, dy:2, radius: 3, color: "orange", octave: 4, note: "c", z_index: 2, scribble_id: scribble2.id)

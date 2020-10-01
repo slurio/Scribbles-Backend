@@ -30,7 +30,8 @@ ActiveRecord::Schema.define(version: 2020_09_28_180313) do
     t.integer "dx"
     t.integer "dy"
     t.string "color"
-    t.string "sound"
+    t.string "octave"
+    t.string "note"
     t.integer "z_index"
     t.integer "radius"
     t.bigint "scribble_id", null: false

@@ -35,6 +35,6 @@ class CircleCanvasesController < ApplicationController
     private
 
     def circleCanvas_params
-      params.require(:circle_canvas).permit(:posX, :posY, :dx, :dy, :color, :sound, :z_index, :radius, :scribble_id)
+      params.require(:circle_canvas).permit(:posX, :posY, :dx, :dy, :color, :octave, :note, :z_index, :radius, :scribble_id)
     end
 end
