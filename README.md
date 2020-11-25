@@ -1,25 +1,25 @@
-# README
+# Scribble
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Welcome to Scribble. A interactive art tool that lets you create your own animated art.
+Scribble was created to provide you a creative outlet as well as a form of relaxation. I hope you enjoy!
 
-Things you may want to cover:
+## Video Demo
 
-* Ruby version
+https://www.loom.com/share/b476c3a24fc84540a461f1610d0a5fbb
 
-* System dependencies
+## Try It Live
 
-* Configuration
+Coming Soon...
 
-* Database creation
+## Dev Tools
 
-* Database initialization
+#### [Frontend](https://github.com/slurio/Scribbles-Frontend)
 
-* How to run the test suite
+- Javascript
+- Tailwind CSS
+- Custom CSS
 
-* Services (job queues, cache servers, search engines, etc.)
+#### Backend
 
-* Deployment instructions
-
-* ...
-# Scribbles-Backend-Api
+- Ruby on Rails
+- Active Model Serializers
