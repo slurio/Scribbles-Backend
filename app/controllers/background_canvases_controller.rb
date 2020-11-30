@@ -1,7 +1,6 @@
 class BackgroundCanvasesController < ApplicationController
 
     def index
-
         background_canvases = BackgroundCanvas.all
 
         render json: background_canvases

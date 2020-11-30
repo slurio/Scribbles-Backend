@@ -7,29 +7,29 @@ class CircleCanvasesController < ApplicationController
     end
 
     def create
-        circleCanvas = CircleCanvas.new(circleCanvas_params)
+        circle_canvas = CircleCanvas.new(circleCanvas_params)
 
-        if circleCanvas.save
-          render json: circleCanvas
+        if circle_canvas.save
+          render json: circle_canvas
         else
-          render json: {error: circleCanvas.errors.full_messages}, status: :not_acceptable
+          render json: {error: circle_canvas.errors.full_messages}, status: :not_acceptable
         end
     end
 
     def update
-      circleCanvas = CircleCanvas.find(params[:id])
+      circle_canvas = CircleCanvas.find(params[:id])
 
-      circleCanvas.update(circleCanvas_params)
+      circle_canvas.update(circleCanvas_params)
 
-      render json: circleCanvas
+      render json: circle_canvas
     end
 
     def destroy
-      circleCanvas = CircleCanvas.find(params[:id])
+      circle_canvas = CircleCanvas.find(params[:id])
 
-      circleCanvas.destroy
+      circle_canvas.destroy
 
-      render json: circleCanvas
+      render json: circle_canvas
     end
 
     private
