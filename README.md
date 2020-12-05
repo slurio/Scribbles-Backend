@@ -38,4 +38,14 @@ A user can:
 #### Backend
 
 - Ruby on Rails
+- PostgreSQL
 - Active Model Serializers
+
+## Installation Instructions
+
+#### [Frontend](https://github.com/slurio/Scribbles-Frontend)
+- Run open index.html
+
+#### Backend
+- Run bundle install
+- Run rails server
