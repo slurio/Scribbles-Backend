@@ -40,7 +40,7 @@ A user can:
 ## Installation Instructions
 
 #### [Frontend](https://github.com/slurio/Scribbles-Frontend)
-- Open index.html
+- Run open index.html
 
 #### Backend
 - Run bundle install
