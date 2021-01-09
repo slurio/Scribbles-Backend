@@ -44,4 +44,4 @@ A user can:
 
 #### Backend
 - Run bundle install
-- Run rails server
+- Run rails server  
